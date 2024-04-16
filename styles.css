@@ -19,19 +19,19 @@ body {
 }
 
 .swiper-button-prev::after {
-    font-size: 25px;
+    font-size: 25px !important;
 } 
 
 .swiper-button-next::after {
-    font-size: 25px;
+    font-size: 25px !important;
 } 
 
-.swiper-button-next {
-    color: #DB241B;
+.swiper-button-next  {
+    color: #DB241B !important;
 } 
 
 .swiper-button-prev {
-    color: #DB241B;
+    color: #DB241B !important;
 } 
 
 .swiper-pagination-bullet {
