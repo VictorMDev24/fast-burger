@@ -35,12 +35,12 @@ body {
 } 
 
 .swiper-pagination-bullet {
-    background-color: #D3D2D2;
+    background-color: #D3D2D2 ;
     opacity: 1;
 }
 
 .swiper-pagination-bullet-active {
-    background-color: #DB241B;
+    background-color: #DB241B ;
 }
 
 .menu {
@@ -80,7 +80,7 @@ body {
 }
 
 .social {
-    margin: 0 10px;
+    margin: 0 10px; 
     height: 40px;
     width: 40px;
     border: 1px solid #DB241B;
