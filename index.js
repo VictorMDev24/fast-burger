@@ -10,7 +10,7 @@ var swiper = new Swiper(".mySwiper-1", {
         nextEl:".swiper-button-next",
         prevEl:".swiper-button-prev",
     }
-}) ;
+});
 
 var swiper = new Swiper(".mySwiper-2", {
     slidesPerView:3,
@@ -35,9 +35,9 @@ var swiper = new Swiper(".mySwiper-2", {
             slidesPerView:3,
         },
     }
-}) ;
+});
 
-let tabInputs = document.querySelectorAll("tabInput");
+let tabInputs = document.querySelectorAll(".tabInput");
 
 tabInputs.forEach(function(input) {
 
@@ -46,6 +46,6 @@ tabInputs.forEach(function(input) {
         let thisSwiper = document.getElementById("swiper" + id );
         thisSwiper.swiper.update();
     })
-})
-let hola = hola
-console.log("hola")
+
+});
+
