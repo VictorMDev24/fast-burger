@@ -35,7 +35,7 @@ body {
 } 
 
 .swiper-pagination-bullet {
-    background-color: #D3D2D2 ;
+    background-color: #D3D2D2  !important ;
     opacity: 1;
 }
 
@@ -218,7 +218,11 @@ body {
 .tabs input[type="radio"]:checked + label {
     border-bottom: 2px solid #DB241B;
     color: #ffffff;
-} 
+}
+
+.tabs input[type="radio"]:checked + label + .tab {
+    display: block;
+}
 
 .product {
     display: flex;
